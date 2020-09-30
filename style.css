@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug [class*=col-] {
+  border: 1px solid black;
+}
+
+.debug .container *{
+  background-color: #ffc0cb;
+  text-align: center;
+  line-height: 200px
+  border: 1px solid black;
+  height: 200px;
+  line-height: 200px;
+}
+
+.container .col-6 *[class*="col-"] {
+  background-color: #f07f80;
+  border: 1px solid white;
+  height: 190px;
+}
+
+.container .col-6 {
+  padding: 3px;
+}
